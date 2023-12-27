@@ -18,6 +18,22 @@ complexity: ![img.png](docs/linear_programming_solver_complexity.png)
 So through variable reduction and incremental solving we can cache prior solutions
 and use them to solve real-time problems efficiently.
 
+## Roadmap
+ - [X] Reduce to Linear Programming problem
+ - [ ] Basic Solver
+ - [ ] Advanced API
+   - [ ] Memory Constraints
+   - [ ] Device Constraints (whether job J can execute on device D)
+   - [ ] Real-Time Systems
+   - [ ] Pause-Resume
+   - [ ] Exception Handling
+ - [ ] Incremental Solver
+ - [ ] Clustering Variable Reduction Optimization
+ - [ ] JAX-Conductor
+   - [ ] Auto recurrence to convolution
+   - [ ] Auto chunking and orchestrated distribution
+   - [ ] Auto kernel fusion
+
 JAX-Conductor
 ---
 I noticed papers such as
