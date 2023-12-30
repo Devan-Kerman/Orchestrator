@@ -39,8 +39,8 @@ JAX-Conductor
 I noticed papers such as
 Mamba ([Gu. A, & Dao T. (2023)](https://arxiv.org/abs/2312.00752)),
 Flash Attention 2 ([Dao T. (2023)](https://arxiv.org/abs/2307.08691)),
-and Ring Attention ([Liu, H., Zaharia, M., & Abbeel, P. (2023)](https://arxiv.org/abs/2310.01889))
-that the optimizations and methods for distributing computation often boiled down to
+and Ring Attention ([Liu, H., Zaharia, M., & Abbeel, P. (2023)](https://arxiv.org/abs/2310.01889)),
+GEMM, etc. that the optimizations and methods for distributing computation often boiled down to
 the same kinds of transformations of the original code.
 
 - Recurrence to convolution for parallelism (Mamba)
